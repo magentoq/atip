@@ -71,7 +71,8 @@
     { key: 'input#fax', value: atipsterData.fax },
     { key: 'input#email', value: atipsterData.email },
     { key: 'input#confirmEmail', value: atipsterData.email },
-    { key: 'select#ownBehalf', value: 'Yes' }, // default
+    { key: 'select#ownBehalf', value: 'No' }, // default
+    { key:  'Are you requesting information concerning a deceased individual?', value: 'No'  },
     { key: 'select#descriptionCategory', value: atipsterData.requestor }, // requestor category
     { key: 'select#receiveMethod', value: atipsterData.delivery }
   ];
